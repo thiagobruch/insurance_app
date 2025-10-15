@@ -1,4 +1,4 @@
-Insurance Data
+### Insurance Sample Data
 
 To run the app download the docker-compose.yml file and run the following command:
 ```
