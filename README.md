@@ -8,6 +8,6 @@ docker compose up -d
 In order to access the Web Interface use:<br>
 http://hostname_or_ip_address:8012
 
-The Database can be access using the following credentials:
-Pser: postgres
-Pass: sumcDolYMEMeTeRFO
+The Database can be access using the following credentials:<BR>
+User: postgres<BR>
+Pass: sumcDolYMEMeTeRFO<BR>
