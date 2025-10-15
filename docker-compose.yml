@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    image: thiagobruch/insurance-app
+    container_name: insurance-app
+    ports:
+      - "8012:80"
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_HOST=db
+    build:
+      context: .
+      dockerfile: Dockerfile
+  db:
+    image: thiagobruch/insurance-db
+    container_name: insurance-db
+    restart: always
+    ports:
+      - "5432:5432"
