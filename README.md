@@ -10,7 +10,7 @@ In order to access the Web Interface use:<br>
 http://hostname_or_ip_address:8012
 ```
 
-The Database can be access using the following credentials:<BR>
+The Database is configured in PostgreSQL can be access using the following credentials:<BR>
 <b>User:</b> postgres<BR>
 <b>Pass:</b> sumcDolYMEMeTeRFO<BR>
 <BR><BR>
